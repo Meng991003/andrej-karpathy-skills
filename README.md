@@ -121,6 +121,32 @@ echo "" >> CLAUDE.md
 curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md >> CLAUDE.md
 ```
 
+**Option C: GitHub Copilot Chat Skill (per-project)**
+
+Copy this skill to:
+
+```text
+.github/skills/karpathy-guidelines/SKILL.md
+```
+
+When this repository is open in VS Code, Copilot Chat can discover and use the skill.
+
+**Option D: GitHub Copilot Chat Skill (global for all projects)**
+
+Create this file in your user profile:
+
+```text
+~/.copilot/skills/karpathy-guidelines/SKILL.md
+```
+
+This makes the skill available across all projects you open in VS Code on your machine.
+
+In chat, you can invoke it as:
+
+```text
+/karpathy-guidelines
+```
+
 ## Key Insight
 
 From Andrej:
